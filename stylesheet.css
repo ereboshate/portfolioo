@@ -1,0 +1,102 @@
+* {
+	border: 1px solid #f00;
+}
+
+body {
+	background-color: black;
+}
+
+footer {
+	text-align:center;
+	vertical-align: 70%;
+	display: block;
+	position: relative;
+	margin: 200px 0 0 0;
+}
+
+.headerbild  {
+	text-align: center;
+	padding: 0px;
+	height: 244;
+	width:940;
+}
+
+.headerbild > div > img {
+	border: 5px solid #fff;
+}
+
+.mainContent {
+	border: 5px solid #fff;
+	background: url(IMG/Bakgrundsbild/background.png) no-repeat;
+	background-position: center;
+	background-size: 100%;
+	height: 660px;
+	width: 940px;
+	margin: 0 auto;
+	font-family: Puppeteer;
+	color: #fff;
+	text-align: left;
+	font-size: 150%;
+}
+
+h1 {
+	margin: 50px 0px 50px 30px;
+	
+}
+
+.navigation{
+	position:relative;
+	top: 35%;
+	left: 0%;
+}
+.mainContent > p {
+	margin: 0 0 0 30px;
+}
+
+
+nav > ul {
+	list-style: none;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+	
+li {
+	margin: 0;
+	padding: 0px;
+	width: 216px;
+	height: 45px;
+	display: inline-block;
+}
+.info {
+	background: url (IMG/Home/nav_home.png)no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+.home {
+	background: url (IMG/Home/nav_home.png)no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+.contact {
+	background: url (IMG/Home/nav_home.png)no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+.support {
+	background: url (IMG/Home/nav_home.png)no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+a:hover {
+	background: url(IMG/Home/nav_home_hover.png) no-repeat;
+}
